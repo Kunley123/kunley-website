@@ -1,0 +1,224 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(228, 228, 228);
+    border-bottom-style: solid;
+    z-index: 100;
+
+}
+
+.left-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu,
+.youtube-logo,
+.search-icon-button,
+.voice-search-icon-button,
+.upload-icon,
+.youtube-apps-icon,
+.notifications-icon {
+    cursor: pointer;
+}
+
+
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.youtube-logo {
+    height: 20px;
+}
+
+.youtube-tool-tip {
+    font-family: Arial;
+    font-size: 12px;
+    position: absolute;
+    bottom: -24px;
+    background-color: gray;
+    color: white;
+    padding: 4px 5px;
+    border-radius: 2px;
+    opacity: 0;
+
+}
+
+.youtube-logo-div:hover .youtube-tool-tip {
+    opacity: 1;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: opacity 0.15s;
+}
+
+.middle-section {
+
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search-icon {
+    height: 25px;
+
+
+}
+
+.voice-search-icon {
+    height: 25px;
+
+}
+
+.search-tool {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgb(0, 0, 0, 0.05);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    flex: 1;
+    width: 0;
+}
+
+.search-tool::placeholder {
+    font-family: arial;
+    font-size: 16px;
+
+}
+
+.search-icon-button,
+.voice-search-icon-button,
+.upload-icon-container,
+.youtube-apps-icon-container,
+.notification-icon-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-icon-button {
+    height: 43px;
+    width: 68px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.search-icon-button .tool-tip,
+.voice-search-icon-button .tool-tip,
+.upload-icon-container .tool-tip,
+.youtube-apps-icon-container .tool-tip,
+.notification-icon-container .tool-tip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    pointer-events: none;
+    font-family: arial;
+}
+
+
+.search-icon-button:hover .tool-tip,
+.upload-icon-container:hover .tool-tip,
+.notification-icon-container:hover .tool-tip {
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+
+.voice-search-icon-button:hover .tool-tip,
+.youtube-apps-icon-container:hover .tool-tip {
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.voice-search-icon-button {
+    height: 43px;
+    width: 43px;
+    border-radius: 21.5px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.right-section {
+    margin-right: 20px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.upload-icon {
+    height: 24px;
+}
+
+.youtube-apps-icon {
+    height: 24px;
+}
+
+.notifications-icon {
+    height: 24px;
+}
+
+.notification-icon-container {
+    position: relative;
+}
+
+.notification-number {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: arial;
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+.my-channel-icon {
+    height: 30px;
+    border-radius: 15px;
+
+}

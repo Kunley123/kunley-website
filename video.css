@@ -1,0 +1,139 @@
+.thumbnail {
+    width: 100%;
+
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+
+
+.profile-picture,
+.profile-image-tool-tip {
+    width: 36px;
+    border-radius: 50px;
+}
+
+.video-title-link {
+    color: black;
+    text-decoration: none;
+}
+
+.video-title-one {
+    margin-top: 0px;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px
+}
+
+@media(min-width: 1000px) {
+    .video-title-one {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media(min-width: 1000px) {
+
+    .video-author,
+    .video-stats {
+        font-size: 14px;
+    }
+}
+
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-author,
+.video-stats,
+.profile-subscribers-tool-tip {
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 6px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+    font-family: arial;
+    font-weight: 500;
+    border-radius: 2px;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.channel-picture {
+    position: relative;
+    width: 200px;
+}
+
+.channel-picture:hover .profile-tool-tip {
+    opacity: 1;
+    transition: 0.15s;
+}
+
+.profile-tool-tip {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 8px;
+    background-color: white;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.03);
+    padding: 10px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.profile-name-tool-tip {
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 3px;
+    white-space: nowrap;
+
+}
+
+.author-profile-tool-tip {
+    margin-left: 10px;
+    margin-right: 8px;
+}

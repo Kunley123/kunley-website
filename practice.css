@@ -1,0 +1,225 @@
+.back {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.next {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    margin-left: 2px;
+    color: blue;
+    margin-right: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.stretch-button {
+    margin-top: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgb(27, 86, 27);
+    color: white;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.stretch-button:hover {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgb(27, 86, 27);
+    color: white;
+}
+
+.shadow-button {
+    margin-top: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgb(27, 86, 27);
+    color: white;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.shadow-button:active {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.number {
+    margin-top: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgb(27, 86, 27);
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.15s;
+    cursor: pointer;
+
+}
+
+.number:hover {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: rgb(27, 86, 27);
+    color: white;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.Tahoma {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+.deal-type {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom: 4px;
+}
+
+.sale-period {
+    color: red;
+    font-size: 14px;
+    margin-top: 0;
+    font-family: arial;
+    line-height: 10px;
+}
+
+.shopping {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.benefit {
+    font-family: arial;
+    font-size: 12px;
+    text-align: center;
+}
+
+.Learn {
+    font-family: arial;
+    font-size: 10px;
+    color: blue;
+    text-align: center;
+}
+
+.amount {
+    font-family: arial;
+    font-weight: bold;
+}
+
+.currency {
+    font-family: arial;
+    font-size: 10px;
+    color: rgb(65, 63, 63);
+    font-weight: bold;
+}
+
+.addition {
+    font-family: arial;
+    color: green;
+}
+
+.time {
+    font-family: arial;
+    color: rgb(65, 63, 63);
+
+}
+
+.subtraction {
+    font-family: arial;
+    color: red;
+}
+
+.free-code {
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+}
+
+.location {
+    font-family: arial;
+    color: rgb(65, 63, 63);
+}
+
+.chp {
+    color: rgb(85, 85, 236);
+    font-family: arial;
+}
+
+.developer {
+    color: rgb(65, 63, 63);
+    font-family: arial;
+}
+
+.here {
+    color: rgb(65, 63, 63);
+    font-family: arial;
+
+}
+
+.cat {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.happen {
+
+    border-style: none;
+    vertical-align: middle;
+    width: 300px;
+}
+
+
+
+.happen::placeholder {
+    font-size: 12px;
+    color: grey;
+}
+
+.tweet {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 9px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 4px 8px;
+    vertical-align: middle;
+    font-weight: bold;
+}
